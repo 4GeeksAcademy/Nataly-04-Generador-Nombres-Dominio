@@ -11,11 +11,11 @@ window.onload = function () {
   let noun = ['cat', 'house', 'bike'];
   let domain = ['.es', '.com', '.io'];
 
-  for (let p of pronoun) {
-    for (let a of adj) {
-      for (let n of noun) {
-        for (let d of domain) {
-          console.log(p + a + n + d)
+  for (let pronoun of pronoun) {
+    for (let adj of adj) {
+      for (let noun of noun) {
+        for (let domain of domain) {
+          console.log(pronoun + adj + noun + domain)
         }
 
 
